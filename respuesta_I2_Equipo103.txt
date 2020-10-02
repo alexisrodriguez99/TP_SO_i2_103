@@ -1,0 +1,8 @@
+a) en mi caso utilice la serie de comandos:
+git remote add upstream “la dirección a actualizar del fork”. Agrega la referencia al repo original
+Git fetch upstream. Nos trae todas las ramas de dicho repo
+Git checkout main. La rama que queremos actualizar
+Git rebase upstream/main. Reescbir nuestrea rama main con los commits nuevos de la rama master del repo original
+Git push -f origin main. Actualiza nuestro fork
+
+b)si, ya que se trabaja con el mismo for original
